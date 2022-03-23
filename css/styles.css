@@ -1,0 +1,128 @@
+/* ========== Navbar ========== */
+.navbar {
+  background-color: #fff !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  color: #5a0a7d !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-radius: 100px;
+}
+.nav-link:hover {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  color: #5a0a7d !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border: 1px solid #5a0a7d;
+  border-radius: 100px;
+  transition: all ease-in-out 0.5s;
+}
+.navbar-icon {
+  margin-right: 10px !important;
+}
+.dropdown-menu {
+  margin-top: 20px !important;
+  border: 1px solid #5a0a7d;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dropdown-item {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.social-media-logo {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  color: #000;
+}
+.social-media-logo:hover {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  color: #5a0a7d;
+}
+/* ========== Navbar ========== */
+
+/* ========== Section Wrapper ========== */
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.menu-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-line-left {
+  border: 1px solid #5a0a7d;
+  width: 40%;
+  margin-right: 40px;
+}
+.header-line-right {
+  border: 1px solid #5a0a7d;
+  width: 40%;
+  margin-left: 40px;
+}
+
+.menu-header h1 {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: bold;
+  color: #5a0a7d;
+  font-size: 24px;
+}
+.section-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+/* ========== Section Wrapper ========== */
+
+/* ========== Card Carousel ========== */
+.card {
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+}
+.card:hover {
+  margin: 10px;
+  padding: 10px;
+  border: 0.5px solid #c7c7c7c7;
+}
+.card-title {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-caption {
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 12px;
+  color: #777;
+}
+.carousel-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
